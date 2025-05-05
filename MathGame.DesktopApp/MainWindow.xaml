@@ -9,7 +9,9 @@
         mc:Ignorable="d"
         Title="Math Game" 
         MinHeight="500" 
-        MinWidth="900">
+        MinWidth="900"
+        Height="500"
+        Width="900">
     <Grid>
         <blazor:BlazorWebView HostPage="wwwroot\index.html" Services="{DynamicResource services}">
             <blazor:BlazorWebView.RootComponents>

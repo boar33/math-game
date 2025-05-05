@@ -2,6 +2,10 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+body {
+    position: relative;
+}
+
 h1:focus {
     outline: none;
 }
@@ -26,6 +30,12 @@ a, .btn-link {
 
 .validation-message {
     color: red;
+}
+
+#app {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 #blazor-error-ui {
